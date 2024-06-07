@@ -15,7 +15,7 @@ body {
 }
 
 #navbar {
-    padding: 20px 0% 20px 5%;
+    padding: 20px 0% 10px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,8 +23,8 @@ body {
 }
 
 #navbarLogo {
-    width: 118px;
-    height: 164px;
+    width: 75px;
+    height: 105px;
 }
 
 #navbarSection {
@@ -40,7 +40,7 @@ body {
 }
 
 #navbarLife {
-    width: 105px;
+    width: 115px;
 }
 
 #navbarContact {
@@ -119,13 +119,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 3px;
+    padding: 20px 3px 90px 3px;
     gap: 35px;
 }
 
 #hero2Img {
-    width: 422px;
-    height: 518px;
+    width: 340px;
+    height: 420px;
     border-radius: 211px;
     position: relative;
     z-index: 9999;
@@ -133,7 +133,7 @@ body {
 }
 
 #hero2Line {
-    height: 329px;
+    height: 250px;
     position: relative;
     z-index: 9999;
 }
@@ -144,7 +144,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 30px;
+    gap: 10px;
     flex-direction: column;
 }
 
@@ -156,30 +156,29 @@ body {
 #drawing {
     z-index: 999;
     position: absolute;
-    top: 52vh;
+    top: 35vh;
     width: 100%;
 
 }
 
 #hero2Text1 {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 20px;
     text-align: left;
-
 }
 
 #hero2Text2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 30px;
     text-align: left;
 }
 
 #hero2Text3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 30px;
     text-align: left;
 }
 
@@ -193,7 +192,10 @@ body {
     flex-wrap: wrap;
 }
 
-#hero2Countbox {
+#hero2Countbox,
+#hero2Countbox2,
+#hero2Countbox3,
+#hero2Countbox4 {
     background-color: #FFFFFF;
     min-width: 87px;
     max-width: 87px;
@@ -212,14 +214,20 @@ body {
 
 }
 
-#hero2Countbox h6 {
+#hero2Countbox h6,
+#hero2Countbox2 h6,
+#hero2Countbox3 h6,
+#hero2Countbox4 h6 {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
 }
 
-#hero2Countbox p {
+#hero2Countbox p,
+#hero2Countbox2 p,
+#hero2Countbox3 p,
+#hero2Countbox4 p {
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
@@ -232,7 +240,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     padding-bottom: 50px;
 }
 
@@ -246,17 +254,12 @@ body {
 
 #hero3 h2 img {
     display: block;
-    width: 266px;
-    height: 30px;
     margin-left: 180px;
+    width: 266px;
+    height: 9px;
 }
 
-#hero4h3 img {
-    display: block;
-    width: 266px;
-    height: 30px;
-    margin-left: 60%;
-}
+
 
 .wave-container {
     position: relative;
@@ -272,7 +275,7 @@ body {
 }
 
 #hero3 h6 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 
@@ -281,16 +284,19 @@ body {
 #hero3 p {
     font-size: 18px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 30px;
     text-align: center;
     width: 70%;
-    margin-top: 7px;
+    margin-top: 5px;
     color: #6A6A6A;
 }
 
 #hero3 section {
+    position: relative;
+    z-index: 9999;
+    padding: 40px 0px;
     width: 1076px;
-    height: 562px;
+    min-height: 562px;
     border-radius: 30px;
     border: 0.5px solid black;
     margin-top: 50px;
@@ -328,7 +334,7 @@ body {
 }
 
 #footer {
-    height: 63px;
+    min-height: 63px;
     padding: 2px 50px;
     display: flex;
     justify-content: space-between;
@@ -368,7 +374,7 @@ body {
     padding: 10px 30px 10px 30px;
     border-radius: 30px;
     border: 1px solid black;
-
+cursor: pointer;
     font-size: 20px;
     font-weight: 700;
     line-height: 35px;
@@ -382,15 +388,21 @@ body {
 }
 
 #hero4h3 {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 400;
     text-align: center;
 
 
 }
-
-#hero4h3span {
-    font-size: 60px;
+#hero4h3img{
+    width: 266px;
+    height: 9px;
+    display: block;
+    margin-left: 50%;
+    margin-bottom: 50px;
+}
+#hero4span {
+    font-size: 45px;
     font-weight: 700;
     text-align: center;
 }
@@ -403,7 +415,7 @@ body {
 }
 
 #hero4MainSection {
-    margin-top: 120px;
+    margin-top: 40px;
     margin-bottom: 100px;
     width: 100%;
     display: flex;
@@ -515,6 +527,9 @@ body {
 #hero53:hover,
 #hero54:hover,
 #hero2Countbox:hover,
+#hero2Countbox2:hover,
+#hero2Countbox3:hover,
+#hero2Countbox4:hover,
 #contact button:hover {
 
     background-color: black;
@@ -597,6 +612,12 @@ body {
     text-align: left;
 
 }
+#socialSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
 
 @media (max-width:1000px) {
     #navbarline {
@@ -650,6 +671,14 @@ body {
     #hero4h3 {
         font-size: 34px;
     }
+    #hero3 h6 {
+        font-size: 32px;
+    }
+    #footer {
+        flex-direction: column;
+        padding: 20px 2px;
+        gap:15px;
+    }
 
     #hero4SectionButton {
         width: 90%;
@@ -688,9 +717,12 @@ body {
 }
 
 @media (max-width:900px) {
+    #hero3 section{
+        width: 95%;
+    }
     #hero2Img {
-        width: 400px;
-        height: 498px;
+        width: 340px;
+        height: 420px;
     }
 
     #hero5Section {
@@ -737,15 +769,15 @@ body {
     }
 
     #hero2Text2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     #hero2Text3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #hero2Text1 {
-        font-size: 27px;
+        font-size: 22px;
     }
 
     #hero2Section {
